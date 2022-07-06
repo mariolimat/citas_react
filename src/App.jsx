@@ -7,6 +7,7 @@ function App() {
   const [pacientes, setPacientes] = useState([]);
   const [paciente, setPaciente] = useState({});
 
+  // Probando GIT
   // Carga desde el localstorage
   useEffect(() => {
     const obtenerLS = () => {
